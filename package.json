@@ -1,0 +1,35 @@
+{
+  "name": "crockpot-fromRoman",
+  "version": "0.0.1",
+  "description": "Convert roman numerals to decimal integers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternal44/crockpot-fromRoman"
+  },
+  "keywords": [
+    "convert",
+    "roman",
+    "numeral",
+    "decimal",
+    "number"
+  ],
+  "author": "James Youn <jamesyoun710@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eternal44/crockpot-fromRoman/issues"
+  },
+  "homepage": "https://github.com/eternal44/crockpot-fromRoman#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5"
+  }
+}
