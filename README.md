@@ -1,6 +1,6 @@
 # crockpot-fromRoman [![Build Status](https://travis-ci.org/eternal44/crockpot-fromRoman.svg?branch=master)](https://travis-ci.org/eternal44/crockpot-fromRoman)
 
-> Converts decimal integers to English.  See the main crockpot library for a full set of conversions.
+> Converts roman numerals to decimal integers.  See the main crockpot library for a full set of conversions.
 
 ## Install
 
