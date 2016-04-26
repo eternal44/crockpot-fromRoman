@@ -4,6 +4,6 @@ module.exports = [
   { numeral: "CCVII", decimal: 207 },
   { numeral: "MLXVI", decimal: 1066 },
   { numeral: "horse", decimal: "null" },
-  { numeral: "", decimal: 60 },
+  { numeral: "", decimal: 0 },
 ]
 
