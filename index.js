@@ -1,4 +1,4 @@
-var digits = require('./helpers/numeralMap')
+var digits = require('./lib/numeralMap')
 
 function translateRomanNumeral (romanNumeral) {
   var DIGIT_VALUES = digits();

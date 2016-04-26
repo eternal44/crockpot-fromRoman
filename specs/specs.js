@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var romanToDecimal = require('./../src/conversion');
+var romanToDecimal = require('./../index');
 var testParams = require('./testList')
 
 describe('Roman Numeral# ', function(){

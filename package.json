@@ -1,6 +1,6 @@
 {
   "name": "crockpot-fromRoman",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert roman numerals to decimal integers",
   "main": "index.js",
   "scripts": {
