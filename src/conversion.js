@@ -1,13 +1,14 @@
+var digits = require('./helpers/numeralMap')
+
 function translateRomanNumeral (romanNumeral) {
   var DIGIT_VALUES = digits();
 
   // translate empty string
   if(romanNumeral === '') return 0;
 
-  var regexp = /[I,V,X,L,C,D,M]/g;
-  var matches = romanNumeral[0].match(regexp)
-
   // return null for invalid numeral
+  var regexp = /[I,V,X,L,C,D,M]/g;
+  var matches = romanNumeral[0].match(regexp);
   if(matches === null) return 'null';
 
   var transcribed = [];
@@ -25,24 +26,8 @@ function translateRomanNumeral (romanNumeral) {
       result -= transcribed[j];
     }
   }
+
   return result;
-}
-
-
-/*
- * # HELPERS #
- */
-
-var digits = function(){
-  return {
-    I: 1,
-    V: 5,
-    X: 10,
-    L: 50,
-    C: 100,
-    D: 500,
-    M: 1000
-  };
 }
 
 module.exports = translateRomanNumeral;
