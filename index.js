@@ -9,7 +9,7 @@ function translateRomanNumeral (romanNumeral) {
   // return null for invalid numeral
   var regexp = /[I,V,X,L,C,D,M]/g;
   var matches = romanNumeral[0].match(regexp);
-  if(matches === null) return 'null';
+  if(matches === null) return null;
 
   var transcribed = [];
   for(var i = 0; i < romanNumeral.length; i++){
