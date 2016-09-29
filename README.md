@@ -31,7 +31,7 @@ $ mocha specs/**
 ```js
 var romanNumerToDecimal = require('crockpot-fromRoman')
 
-decimalToEnglish('IV')
+decimalToRoman'IV')
 // 4
 ```
 ## License
